@@ -1,0 +1,119 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+.carousel{
+	padding: 0 30px;
+	position: relative;
+}
+
+
+.carousel__nav {
+	position: absolute;
+	right: 0px;
+	top: -70px;
+}
+
+#logo-carousel .carousel__nav {
+	position: initial;
+}
+
+.carousel__button--prev, 
+.carousel__button--next{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	font-size: 48px;
+	font-weight: lighter;
+}
+
+#logo-carousel .carousel__button--prev, 
+#logo-carousel .carousel__button--next{
+	font-size: 30px;
+}
+
+.carousel__button--prev:hover,
+.carousel__button--next:hover {
+	opacity: .7;
+	cursor: pointer;
+}
+
+.carousel__button--prev{
+	right: 50px;
+}
+
+#logo-carousel .carousel__button--prev {
+position: absolute;
+left: 0;
+top: 50%;
+}
+
+.carousel__button--next{
+	right: 0;
+}
+
+#logo-carousel .carousel__button--next {
+	position: absolute;
+	right: 0;
+	top: 50%;
+}
+.carousel__container {
+	overflow: hidden;
+}
+.carousel__list{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+.carousel__list.unwrap{
+	flex-wrap: nowrap;
+}
+.carousel__item{
+	flex: 1 0 275px;
+	border: 1px solid #fff;
+	padding: 0 30px;
+}
+.carousel__item img {
+    width: 247px;
+    height: 133px;
+}
+
+#logo-carousel .carousel__item img {
+    width: initial;
+    height: initial;
+}
+
+#logo-carousel .carousel__item {
+	flex: 1 0 200px;
+	padding: 0 15px;
+}
+
+#logo-carousel .carousel__item  img{
+	border: 1px solid #eee;
+}
+
+.carousel__item h4 {
+    font-family: 'Signika',Helvetica,Arial,Lucida,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff6633;
+    padding-bottom: 0;
+}
+
+.carousel__item a {
+	color: #ff6633;
+}
+
+.carousel__item p.datetime {
+	text-transform: uppercase;
+}
